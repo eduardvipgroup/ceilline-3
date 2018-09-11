@@ -48,37 +48,37 @@
 </header>
 <div class="main" style="flex-grow: 1;">
 
-    <div class="article">
+    <div class="article typography">
         <div class="article__date"><i class="fas fa-calendar-alt"></i> 23 июля 2018</div>
-        <p class="article__name">24-ая международная выставка строительных и отделочных
+        <div class="article__name">24-ая международная выставка строительных и отделочных
             материалов
-        </p>
-        <p class="article__text">Выставка WorldBuild Moscow / MosBuild является самой крупной в
+        </div>
+        <p class="typography">Выставка WorldBuild Moscow / MosBuild является самой крупной в
             России выставкой строительных и отделочных...
         </p>
-        <img src="./img/show.jpg" alt="" class="article__img">
-        <p class="article__text">Выставка WorldBuild Moscow / MosBuild является самой крупной в
+        <img src="./img/show.jpg" alt="фото с выставки" class="article__img">
+        <p class="typography">Выставка WorldBuild Moscow / MosBuild является самой крупной в
             России выставкой строительных и отделочных...
         </p>
-        <h2 class="article__h2">Заголовок H2</h2>
-        <p class="article__text">Участники выставки имеют возможность продемонстрировать свою продукцию 64 490
-            специалистам <br>предприятий, занимающихся:
+        <h2 class="typography">Заголовок H2</h2>
+        <p class="typography">Участники выставки имеют возможность продемонстрировать свою продукцию 64 490
+            специалистам предприятий, занимающихся:
         </p>
-        <ul class="article__ul">
+        <ul class="typography">
             <li><span>оптовой и розничной торговлей строительными и отделочными материалами,</span></li>
             <li><span>строительством,</span></li>
             <li><span>проектированием,</span></li>
             <li><span>отделкой зданий и поме­щений,</span></li>
             <li><span>дизайном интерьера.</span></li>
         </ul>
-        <p class="article__text">WorldBuild Moscow/MosBuild - это эффективный инструмент продвижения продукции на
-            российском <br>рынке. Участие в выставке позволяет привлечь новых клиентов, увеличить объемы продаж и <br>
+        <p class="typography">WorldBuild Moscow/MosBuild - это эффективный инструмент продвижения продукции на
+            российском рынке. Участие в выставке позволяет привлечь новых клиентов, увеличить объемы продаж и
             расширить географию сбыта строительных и отделочных материалов.
         </p>
-        <h3 class="article__h3">Заголовок H3</h3>
-        <p class="article__text">Интерьерное направление выставки демонстрирует отделочные материалы, созданные ведущими
+        <h3 class="typography">Заголовок H3</h3>
+        <p class="typography">Интерьерное направление выставки демонстрирует отделочные материалы, созданные ведущими
             <br> производителями совместно с известными дизайнерами интерьера. <br><br>
-            Ежегодно мировые бренды совместно с именитыми дизайнерами разрабатывают новинки коллекций и <br>
+            Ежегодно мировые бренды совместно с именитыми дизайнерами разрабатывают новинки коллекций и
             презентуют их на самой крупной в России выставке интерьера и декора WorldBuild Moscow / MosBuild.<br><br>
             WorldBuild Moscow / MosBuild входит в ТОП 5 строительных выставок мира.
         </p>
@@ -96,11 +96,13 @@
                 <button class="consultation__btn">Получить консультацию</button>
             </div>
             <div class="consultation__warning">
-                <label for="consultation__warning_input">
-                    <input type="checkbox" name="consultation__warning_input" id="consultation__warning_input" class="consultation__warning_input">
+                <label class="consultation__warning_checkbox" for="consultation__warning_input">
+                    <input type="checkbox" name="consultation__warning_input" id="consultation__warning_input"
+                           class="consultation__checkbox_input">
+                    <span class="consultation__checkbox_span"></span>
+                    <span class="consultation__warning_p">Нажимая кнопку вы подтверждаете что ознакомлены с политикой
+                        безопасности и согласны на обработку своих персональных данных</span>
                 </label>
-                <p class="consultation__warning_p">Нажимая кнопку вы подтверждаете что ознакомлены с политикой
-                    безопасности и согласны на обработку своих персональных данных</p>
             </div>
         </form>
     </div>

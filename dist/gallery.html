@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="libs/fontAwesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/jquery.fancybox.min.css">
     <script src="js/siema.min.js"></script>
     <script src="js/jquery.js"></script>
 </head>
@@ -51,18 +52,42 @@
     <div class="galleryMain">
         <h1 class="galleryMain__title">Галерея</h1>
         <div class="galleryMain__block">
-            <img src="./img/Layer_2.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_3.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_5.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_2.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_3.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_5.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_2.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_3.png" alt="" class="gallery__slide_img">
-            <img src="./img/Layer_5.png" alt="" class="gallery__slide_img">
+            <a href="img/33.jpg" data-fancybox="gallery" data-caption="Грильято">
+                <img src="./img/Layer_2.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/22.jpg" data-fancybox="gallery" data-caption="Армстронг">
+                <img src="./img/Layer_3.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/Layer_5.png" data-fancybox="gallery" data-caption="Реечные">
+                <img src="./img/Layer_5.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/33.jpg" data-fancybox="gallery" data-caption="Грильято">
+                <img src="./img/Layer_2.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/22.jpg" data-fancybox="gallery" data-caption="Армстронг">
+                <img src="./img/Layer_3.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/Layer_5.png" data-fancybox="gallery" data-caption="Реечные">
+                <img src="./img/Layer_5.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/33.jpg" data-fancybox="gallery" data-caption="Грильято">
+                <img src="./img/Layer_2.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/22.jpg" data-fancybox="gallery" data-caption="Армстронг">
+                <img src="./img/Layer_3.png" alt="Реечные" class="gallery__slide_img"></a>
+            <a href="img/Layer_5.png" data-fancybox="gallery" data-caption="Реечные">
+                <img src="./img/Layer_5.png" alt="Реечные" class="gallery__slide_img"></a>
         </div>
         <button class="galleryMain__btn">Показать еще</button>
     </div>
+
+    <script>
+
+        $('[data-fancybox="gallery"]').fancybox({
+            buttons: [
+                'share',
+                'fullScreen',
+                'close'
+            ],
+            thumbs: {
+                autoStart: true
+            }
+        });
+
+    </script>
 
     <div class="consultation">
         <div class="consultation__title">Бесплатная профессиональная консультация</div>
@@ -99,6 +124,7 @@
     <div class="footer__email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></div>
     <div class="footer__copyright">2018 © ceilline.ru. Все права защищены.</div>
 </footer>
-
+<script src="js/jquery.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
