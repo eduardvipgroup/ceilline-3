@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="libs/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/fontAwesome/css/fontawesome-all.min.css">
+    <script src="js/siema.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__box">
+        <a href="index.html">
+            <div class="header__logo"></div>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li><a href="catalog.html">Каталог</a></li>
+                <li class="active"><a href="gallery.html">Галерея</a></li>
+                <li><a href="services.html">Монтаж</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__search">
+        <label for="header__search_input">
+            <input type="text" name="header__search_input" id="header__search_input" placeholder="Поиск">
+        </label>
+        <span class="header__search_span">
+            <button class="header__search_btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+    </div>
+    <div class="header__contacts">
+        <div class="header__contacts_tel">
+            <div class="header__contacts_tel-fa"><i class="fas fa-phone"></i></div>
+            <span class="header__contacts_tel-span"><a href="tel:+74954093910">+7 (495) 409-39-10</a></span>
+        </div>
+        <div class="header__contacts_email">
+            <div class="header__contacts_email-fa"><i class="fas fa-envelope"></i></div>
+            <span class="header__contacts_span-email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></span>
+        </div>
+    </div>
+</header>
+<div class="main" style="flex-grow: 1;">
+
+    <div class="article">
+        <div class="article__date"><i class="fas fa-calendar-alt"></i> 23 июля 2018</div>
+        <p class="article__name">24-ая международная выставка строительных и отделочных
+            материалов
+        </p>
+        <p class="article__text">Выставка WorldBuild Moscow / MosBuild является самой крупной в
+            России выставкой строительных и отделочных...
+        </p>
+        <img src="./img/show.jpg" alt="" class="article__img">
+        <p class="article__text">Выставка WorldBuild Moscow / MosBuild является самой крупной в
+            России выставкой строительных и отделочных...
+        </p>
+        <h2 class="article__h2">Заголовок H2</h2>
+        <p class="article__text">Участники выставки имеют возможность продемонстрировать свою продукцию 64 490
+            специалистам <br>предприятий, занимающихся:
+        </p>
+        <ul class="article__ul">
+            <li><span>оптовой и розничной торговлей строительными и отделочными материалами,</span></li>
+            <li><span>строительством,</span></li>
+            <li><span>проектированием,</span></li>
+            <li><span>отделкой зданий и поме­щений,</span></li>
+            <li><span>дизайном интерьера.</span></li>
+        </ul>
+        <p class="article__text">WorldBuild Moscow/MosBuild - это эффективный инструмент продвижения продукции на
+            российском <br>рынке. Участие в выставке позволяет привлечь новых клиентов, увеличить объемы продаж и <br>
+            расширить географию сбыта строительных и отделочных материалов.
+        </p>
+        <h3 class="article__h3">Заголовок H3</h3>
+        <p class="article__text">Интерьерное направление выставки демонстрирует отделочные материалы, созданные ведущими
+            <br> производителями совместно с известными дизайнерами интерьера. <br><br>
+            Ежегодно мировые бренды совместно с именитыми дизайнерами разрабатывают новинки коллекций и <br>
+            презентуют их на самой крупной в России выставке интерьера и декора WorldBuild Moscow / MosBuild.<br><br>
+            WorldBuild Moscow / MosBuild входит в ТОП 5 строительных выставок мира.
+        </p>
+    </div>
+    <div class="consultation">
+        <div class="consultation__title">Бесплатная профессиональная консультация</div>
+        <div class="consultation__text">Наши специалисты проконсультируют Вас по всем имеющимся вопросам,
+            помогут с выбором товара и подбором комплектующих, рассчитают количество необходимого для установки
+            материала.
+        </div>
+        <form class="consultation__form">
+            <div class="consultation__input_group">
+                <input type="text" class="consultation__input_name" placeholder="Ваше имя">
+                <input type="email" class="consultation__input_email" placeholder="Телефон или e-mail">
+                <button class="consultation__btn">Получить консультацию</button>
+            </div>
+            <div class="consultation__warning">
+                <label for="consultation__warning_input">
+                    <input type="checkbox" name="consultation__warning_input" id="consultation__warning_input" class="consultation__warning_input">
+                </label>
+                <p class="consultation__warning_p">Нажимая кнопку вы подтверждаете что ознакомлены с политикой
+                    безопасности и согласны на обработку своих персональных данных</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__tel">
+        <a href="tel:+74954093910">+7 (495) 409-39-10, </a>
+        <a href="tel:+79254025159">+7 (925) 402-51-59</a>
+    </div>
+    <div class="footer__email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></div>
+    <div class="footer__copyright">2018 © ceilline.ru. Все права защищены.</div>
+</footer>
+
+</body>
+</html>

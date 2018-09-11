@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Доставка</title>
+    <link rel="stylesheet" href="libs/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/fontAwesome/css/fontawesome-all.min.css">
+    <script src="js/siema.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__box">
+        <a href="index.html">
+            <div class="header__logo"></div>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li><a href="catalog.html">Каталог</a></li>
+                <li class="active"><a href="gallery.html">Галерея</a></li>
+                <li><a href="services.html">Монтаж</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__search">
+        <label for="header__search_input">
+            <input type="text" name="header__search_input" id="header__search_input" placeholder="Поиск">
+        </label>
+        <span class="header__search_span">
+            <button class="header__search_btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+    </div>
+    <div class="header__contacts">
+        <div class="header__contacts_tel">
+            <div class="header__contacts_tel-fa"><i class="fas fa-phone"></i></div>
+            <span class="header__contacts_tel-span"><a href="tel:+74954093910">+7 (495) 409-39-10</a></span>
+        </div>
+        <div class="header__contacts_email">
+            <div class="header__contacts_email-fa"><i class="fas fa-envelope"></i></div>
+            <span class="header__contacts_span-email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></span>
+        </div>
+    </div>
+</header>
+<div class="main" style="flex-grow: 1;">
+
+    <div class="delivery">
+        <h1 class="delivery__title">Доставка и оплата</h1>
+        <p class="delivery__text">Компания Ceilline занимается не только продажей подвесных потолков и светильников.
+            Наша компания <br>занимается доставкой. Мы приложим все усилия, чтобы вопросы касающиеся логистики
+            Вас не <br>тревожили, а товар был доставлен в оговоренный кратчайший срок по минимальной цене.
+            Доставка <br>осуществляется по Московской области и Москве. <br><br>
+            Служба доставки компании "Ceilline" работает с понедельника по пятницу с 9.00 до 18.00. Если Вы <br>находитесь
+            в другом регионе мы предоставим Вам помощь в организации доставки по всей России. <br>Доставка возможна
+            при наличии круглой печати или доверенности на объекте.
+        </p>
+        <h3 class="delivery__h3">Стоимость доставки по Москве и Московской области</h3>
+        <p class="delivery__text">
+            Стоимость доставки в пределах московского кольца начинается от 1500 руб.<br><br>
+            Рассчитывается стоимость доставки в зависимости от множества факторов: габаритов, веса, объема<br>
+            приобретенного товара. Территориальное расположение так же влияет на цену доставки. Если объект <br>находится
+            в пределах московской кольцевой автодороги итоговая стоимость будет ниже,
+            чем доставка <br>за пределы МКАД (Московская область).
+        </p>
+        <table class="delivery__table">
+            <tr>
+                <th>Тип автомобиля</th>
+                <th>Москва</th>
+                <th>Третье ТК</th>
+                <th>Садовое кольцо</th>
+                <th>За Мкад</th>
+            </tr>
+            <tr>
+                <td>Камаз 10 тонн</td>
+                <td>7000 руб.</td>
+                <td>от 8500 руб.</td>
+                <td>от 9300 руб.</td>
+                <td>+ 35 руб./за км.</td>
+            </tr>
+            <tr>
+                <td>Камаз 10 тонн</td>
+                <td>7000 руб.</td>
+                <td>от 8500 руб.</td>
+                <td>от 9300 руб.</td>
+                <td>+ 35 руб./за км.</td>
+            </tr>
+            <tr>
+                <td>Камаз 10 тонн</td>
+                <td>7000 руб.</td>
+                <td>от 8500 руб.</td>
+                <td>от 9300 руб.</td>
+                <td>+ 35 руб./за км.</td>
+            </tr>
+        </table>
+        <span class="delivery__table_span">Дополнительные услуги, такие как разгрузка и подъем оплачиваются отдельно.</span>
+
+        <h3 class="delivery__h3">Способ оплаты</h3>
+        <p class="delivery__h3_text">Оплата заказа возможна:</p>
+        <ul class="delivery__ul">
+            <li><span>банковским переводом</span></li>
+            <li><span>банковским переводом</span></li>
+        </ul>
+    </div>
+
+
+    <div class="consultation">
+        <div class="consultation__title">Бесплатная профессиональная консультация</div>
+        <div class="consultation__text">Наши специалисты проконсультируют Вас по всем имеющимся вопросам,
+            помогут с выбором товара и подбором комплектующих, рассчитают количество необходимого для установки
+            материала.
+        </div>
+        <form class="consultation__form">
+            <div class="consultation__input_group">
+                <input type="text" class="consultation__input_name" placeholder="Ваше имя">
+                <input type="email" class="consultation__input_email" placeholder="Телефон или e-mail">
+                <button class="consultation__btn">Получить консультацию</button>
+            </div>
+            <div class="consultation__warning">
+                <label for="consultation__warning_input">
+                    <input type="checkbox" name="consultation__warning_input" id="consultation__warning_input" class="consultation__warning_input">
+                </label>
+                <p class="consultation__warning_p">Нажимая кнопку вы подтверждаете что ознакомлены с политикой
+                    безопасности и согласны на обработку своих персональных данных</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__tel">
+        <a href="tel:+74954093910">+7 (495) 409-39-10, </a>
+        <a href="tel:+79254025159">+7 (925) 402-51-59</a>
+    </div>
+    <div class="footer__email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></div>
+    <div class="footer__copyright">2018 © ceilline.ru. Все права защищены.</div>
+</footer>
+</body>
+</html>

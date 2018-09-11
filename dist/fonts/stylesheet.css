@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Light.woff2') format('woff2'),
+    url('AvenirNextCyr-Light.woff') format('woff'),
+    url('AvenirNextCyr-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Medium.woff2') format('woff2'),
+    url('SFUIDisplay-Medium.woff') format('woff'),
+    url('SFUIDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Light.woff2') format('woff2'),
+    url('SFUIDisplay-Light.woff') format('woff'),
+    url('SFUIDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Regular.woff2') format('woff2'),
+    url('SFUIDisplay-Regular.woff') format('woff'),
+    url('SFUIDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Этот шрифт используется по умолчанию, поэтому нет смысла указать его для всех блоков, можно сделать для html */
+html {
+    font-family: 'San Francisco Display', sans-serif;
+}
+
+/* По умолчанию, используется normal начертание, чтобы использовать light, надо сделать так */
+.someclass1 {
+    font-weight: 300;
+}
+
+/* По умолчанию, используется normal начертание, чтобы использовать medium, надо сделать так */
+.someclass2 {
+    font-weight: 500;
+}

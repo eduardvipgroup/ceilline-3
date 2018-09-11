@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="libs/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/fontAwesome/css/fontawesome-all.min.css">
+    <script src="js/siema.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__box">
+        <a href="index.html">
+            <div class="header__logo"></div>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="services.html">Монтаж</a></li>
+                <li class="active"><a href="about.html">О компании</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__search">
+        <label for="header__search_input">
+            <input type="text" name="header__search_input" id="header__search_input" placeholder="Поиск">
+        </label>
+        <span class="header__search_span">
+            <button class="header__search_btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+    </div>
+    <div class="header__contacts">
+        <div class="header__contacts_tel">
+            <div class="header__contacts_tel-fa"><i class="fas fa-phone"></i></div>
+            <span class="header__contacts_tel-span"><a href="tel:+74954093910">+7 (495) 409-39-10</a></span>
+        </div>
+        <div class="header__contacts_email">
+            <div class="header__contacts_email-fa"><i class="fas fa-envelope"></i></div>
+            <span class="header__contacts_span-email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></span>
+        </div>
+    </div>
+</header>
+<div class="main" style="flex-grow: 1;">
+
+    <div class="contact">
+        <div class="contact__title">Контакты</div>
+        <div class="contact__contacts">
+            <div class="contact__contacts_info">
+                <div class="contact__contacts_info_tel">
+                    <span>телефон:</span>
+                    <p class="contact__contacts_tel">
+                        <a href="tel:+74954093910">+7 (495) 409-39-10</a>
+                    </p>
+                </div>
+                <div class="contact__contacts_info_email">
+                    <span>почта:</span>
+                    <p class="contact__contacts_email">
+                        <a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a>
+                    </p>
+                </div>
+            </div>
+            <div class="contact__contacts_address">
+                <div class="contact__contacts_address_work">
+                    <span>адрес:</span>
+                    <p class="contact__contacts_work">
+                        г.Москва, Нагорный проезд, 10А
+                    </p>
+                </div>
+                <div class="contact__contacts_address_time">
+                    <span>график работы:</span>
+                    <p class="contact__contacts_time">
+                        Пн-Пт с 9:00 до 18:00
+                    </p>
+                </div>
+            </div>
+            <p class="contact__contacts_text">
+                Для получения временного пропуска обязательно иметь<br>
+                при себе паспорт или водительское удостоверение.
+                <br><br>
+                Для посетителей на личном транспорте предусмотрена<br>
+                удобная парковка.
+            </p>
+        </div>
+        <div class="contact__map">
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5349.342155539281!2d37.605729957470125!3d55.68687846160736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ca969568a4f%3A0x331bff1aa754dfa0!2z0J3QsNCz0L7RgNC90YvQuSDQv9GALdC0LCAxMNCQLCDQnNC-0YHQutCy0LAsIDExNzEwNQ!5e0!3m2!1sru!2sru!4v1535951216519"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <div class="contact__question">
+            <div class="contact__question-block">
+                <div class="contact__question_title">
+                    Есть вопросы? Напишите нам!
+                </div>
+                <form class="contact__question_form">
+                    <div class="contact__question_input_group">
+                        <input type="tel" class="contact__question_input_name" placeholder="Ваше имя">
+                        <input type="email" class="contact__question_input_email" placeholder="Телефон или e-mail">
+                    </div>
+                    <textarea placeholder="Сообщение" name="contact__textarea" id="contact__textarea"
+                              rows="4"></textarea>
+                    <div class="contact__question_warning">
+                        <label><input type="checkbox" name="contact__question_warning_input"
+                                      class="contact__question_warning_input"></label>
+                        <p class="contact__question_warning_p">Подтверждаю что ознакомлен(-а) с политикой безопасности
+                            <br>
+                            и согласен(-а) на обработку своих персональных данных</p>
+                        <button class="contact__question_warning_btn">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__tel">
+        <a href="tel:+74954093910">+7 (495) 409-39-10, </a>
+        <a href="tel:+79254025159">+7 (925) 402-51-59</a>
+    </div>
+    <div class="footer__email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></div>
+    <div class="footer__copyright">2018 © ceilline.ru. Все права защищены.</div>
+</footer>
+</body>
+</html>

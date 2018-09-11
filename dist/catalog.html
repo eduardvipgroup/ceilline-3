@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="libs/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/fontAwesome/css/fontawesome-all.min.css">
+    <script src="js/siema.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__box">
+        <a href="index.html">
+            <div class="header__logo"></div>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="active"><a href="catalog.html">Каталог</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="services.html">Монтаж</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__search">
+        <label for="header__search_input">
+            <input type="text" name="header__search_input" id="header__search_input" placeholder="Поиск">
+        </label>
+        <span class="header__search_span">
+            <button class="header__search_btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+    </div>
+    <div class="header__contacts">
+        <div class="header__contacts_tel">
+            <div class="header__contacts_tel-fa"><i class="fas fa-phone"></i></div>
+            <span class="header__contacts_tel-span"><a href="tel:+74954093910">+7 (495) 409-39-10</a></span>
+        </div>
+        <div class="header__contacts_email">
+            <div class="header__contacts_email-fa"><i class="fas fa-envelope"></i></div>
+            <span class="header__contacts_span-email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></span>
+        </div>
+    </div>
+</header>
+<div class="main" style="flex-grow: 1;">
+
+    <div class="catalog">
+        <div class="catalog__title">Потолки</div>
+        <p class="catalog__text">
+            Компания "Ceilline" специализируется на продаже подвесных потолков: Армстронг, Грильято, реечных потолков по
+            самым низким ценам. Красивый <br>современный потолок стал неотъемлемой частью декорирования помещений, мы
+            поможем осуществить задуманное дизайнерское решение. Вы сможете <br>приобрести потолки в Москве и московской
+            обрасти, оптом и в розницу. Помимо продажи мы занимаемся полным перечнем услуг по установке потолочных <br>
+            конструкций: замер, расчет, монтаж потолков. <br>
+            Если для Вас на первом месте стоит качество и своевременные сроки обращайтесь к нам по телефону
+            <span><a href="tel:+74954093910">+7 (495) 409-39-10</a></span> или пишите на <span>
+            <a href="mailto:info@ceilline.ru">info@ceilline.ru</a></span>
+        </p>
+        <form class="catalog__form">
+            <div class="catalog__form_type">
+                <p class="catalog__form_type_name">Тип</p>
+                <div class="catalog__form_type_input">
+                    <label for="1"><input type="checkbox" name="1" id="1">Грильято</label>
+                    <label for="2"><input type="checkbox" name="2" id="2">Армстронг</label>
+                    <label for="3"><input type="checkbox" name="3" id="3">Кассетные</label>
+                    <label for="4"><input type="checkbox" name="4" id="4">Реечные</label>
+                    <label for="5"><input type="checkbox" name="5" id="5">Комплектующие</label>
+                </div>
+            </div>
+            <div class="catalog__form_sort">
+                <p class="catalog__form_sort_name">Сортировка</p>
+                <label for="catalog__select">
+                    <select name="catalog__select" id="catalog__select">
+                        <option value="">По популярности</option>
+                        <option value="">По наименованию</option>
+                        <option value="">По стоимости</option>
+                    </select>
+                </label>
+            </div>
+        </form>
+        <div class="catalog__block">
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_1.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро Грильято 100х100, h=30, цвет серебро Грильято
+                            100х100, h=30, цвет серебро Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_2.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_3.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_4.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_1.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_2.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_3.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+                <div class="catalog__box">
+                    <div class="recommend__slide_img"
+                         style="background: url(img/Layer_4.png); background-size: cover"></div>
+                    <div class="recommend__slide_description">
+                        <p>Грильято 100х100, h=30, цвет серебро</p>
+                        <span>481 руб.</span>
+                    </div>
+                </div>
+        </div>
+        <button class="catalog__btn">Показать еще товары</button>
+    </div>
+
+    <div class="consultation">
+        <div class="consultation__title">Бесплатная профессиональная консультация</div>
+        <div class="consultation__text">Наши специалисты проконсультируют Вас по всем имеющимся вопросам,
+            помогут с выбором товара и подбором комплектующих, рассчитают количество необходимого для установки
+            материала.
+        </div>
+        <form class="consultation__form">
+            <div class="consultation__input_group">
+                <input type="text" class="consultation__input_name" placeholder="Ваше имя">
+                <input type="email" class="consultation__input_email" placeholder="Телефон или e-mail">
+                <button class="consultation__btn">Получить консультацию</button>
+            </div>
+            <div class="consultation__warning">
+                <label for="consultation__warning_input">
+                    <input type="checkbox" name="consultation__warning_input" id="consultation__warning_input"
+                           class="consultation__warning_input">
+                </label>
+                <p class="consultation__warning_p">Нажимая кнопку вы подтверждаете что ознакомлены с политикой
+                    безопасности и согласны на обработку своих персональных данных</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__tel">
+        <a href="tel:+74954093910">+7 (495) 409-39-10, </a>
+        <a href="tel:+79254025159">+7 (925) 402-51-59</a>
+    </div>
+    <div class="footer__email"><a href="mailto:ceilline@mail.ru">ceilline@mail.ru</a></div>
+    <div class="footer__copyright">2018 © ceilline.ru. Все права защищены.</div>
+</footer>
+<script src="js/height-fixer.js"></script>
+</body>
+</html>
