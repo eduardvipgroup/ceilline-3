@@ -2819,16 +2819,14 @@ p {
       .consultation__warning_checkbox input {
         display: none; }
         .consultation__warning_checkbox input:checked + .consultation__checkbox_span::before {
-          content: '';
+          content: '\2713';
           display: block;
           position: absolute;
-          top: 2px;
-          right: 2px;
-          bottom: 2px;
-          left: 2px;
-          -webkit-border-radius: 2px;
-                  border-radius: 2px;
-          background: #1f3689; }
+          top: -.06rem;
+          left: .01rem;
+          color: #1f3689;
+          font-weight: 700;
+          font-size: .14rem; }
       .consultation__warning_checkbox span.consultation__checkbox_span {
         position: relative;
         width: .14rem;
