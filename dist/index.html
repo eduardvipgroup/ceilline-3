@@ -181,8 +181,14 @@
             const prev = document.querySelector('.recommend__slide_prev');
             const next = document.querySelector('.recommend__slide_next');
 
-            prev.addEventListener('click', () => mySiema.prev());
-            next.addEventListener('click', () => mySiema.next());
+            prev.addEventListener('click', function() {
+                mySiema.prev();
+            } );
+            next.addEventListener('click', function() {
+                mySiema.next();
+            } );
+            //prev.addEventListener('click', () => mySiema.prev());
+            //next.addEventListener('click', () => mySiema.next());
         </script>
         <a href="catalog.html">
             <div class="recommend__button">Перейти в каталог</div>

@@ -162,7 +162,8 @@
     color: #333;
     font-size: .16rem;
     line-height: .26rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 7.7rem; }
     .mission__text p:nth-child(1) {
       padding-bottom: .4rem; }
     .mission__text p:nth-child(2) {
@@ -254,6 +255,23 @@
     .gallery__slide_prev:hover::after, .gallery__slide_next:hover::after {
       border-color: #fff; }
 
+.article__date {
+  color: #8b9199;
+  font-size: 0.12rem;
+  line-height: 0.26rem;
+  margin: 0.8rem auto 0 auto;
+  font-family: "Avenir Next Cyr";
+  max-width: 7.7rem; }
+
+.article__name {
+  color: #074aa7;
+  font-size: 0.36rem;
+  line-height: 43px;
+  font-weight: 900;
+  margin: 0.2rem auto 0.4rem auto;
+  font-family: "Avenir Next Cyr";
+  max-width: 7.7rem; }
+
 .article {
   -webkit-box-align: left;
   -webkit-align-items: left;
@@ -271,16 +289,6 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
-  .article__date {
-    color: #8b9199;
-    font-size: 0.12rem;
-    line-height: 0.26rem; }
-  .article__name {
-    color: #074aa7;
-    font-size: 0.36rem;
-    line-height: 43px;
-    font-weight: 900;
-    padding: .3rem 0 .4rem 0; }
 
 .calc {
   -webkit-box-align: left;
@@ -638,12 +646,15 @@
             flex-wrap: wrap;
     margin: 0 auto 0.3rem auto; }
   .catalog__box {
+    display: block;
     background-color: #fff;
-    height: 100%;
     min-width: 23%;
     max-width: 23%;
     padding: 0 0 0.1rem 0;
-    border-color: #f7f7f7; }
+    border-color: #f7f7f7;
+    height: auto; }
+    .catalog__box:hover {
+      opacity: .9; }
   .catalog__btn {
     width: 1.7rem;
     height: .44rem;
@@ -840,7 +851,7 @@
   -webkit-align-items: left;
       -ms-flex-align: left;
           align-items: left;
-  margin: 0.8rem auto 0.8rem auto;
+  margin: 0 auto 0.8rem auto;
   font-family: "SF UI Display";
   max-width: 7.7rem;
   display: -webkit-box;
@@ -853,52 +864,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   font-weight: 500; }
-  .delivery__text {
-    font-size: 0.16rem;
-    line-height: 0.26rem;
-    padding: .3rem 0 .6rem 0;
-    font-family: "SF UI Display";
-    color: #333; }
-  .delivery h1, .delivery h3 {
-    color: #074aa7;
-    font-weight: 700; }
-  .delivery h1 {
-    font-size: 0.36rem;
-    line-height: 43px; }
-  .delivery__h3 {
-    font-size: 0.26rem;
-    line-height: 43px; }
-    .delivery__h3_text {
-      font-size: 0.16rem;
-      line-height: 0.26rem;
-      font-family: "SF UI Display";
-      color: #333; }
-  .delivery ul {
-    list-style-type: disc;
-    text-align: left;
-    padding: 0 0 0 .3rem;
-    font-family: "SF UI Display"; }
-    .delivery ul li {
-      color: #2393e2; }
-    .delivery ul li span {
-      color: #333; }
-  .delivery__table {
-    border-collapse: collapse; }
-    .delivery__table tr {
-      border-bottom: 0.01rem solid #dadee3;
-      height: 0.5rem;
-      color: #333; }
-    .delivery__table th {
-      font-size: 0.16rem;
-      line-height: 0.26rem;
-      color: #888;
-      min-width: 0.1rem;
-      font-weight: 400; }
-    .delivery__table td {
-      min-width: 1rem; }
-  .delivery__table_span {
-    font-size: 0.14rem;
-    line-height: 26px; }
 
 .galleryMain {
   margin: 0.8rem auto 0 auto;
@@ -927,10 +892,13 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     width: 100%; }
-    .galleryMain__block img {
+    .galleryMain__block a {
+      margin-bottom: .4rem;
       width: 3.7rem;
-      height: 2.6rem;
-      margin-bottom: .4rem; }
+      height: 2.6rem; }
+    .galleryMain__block img {
+      width: 100%;
+      height: 100%; }
   .galleryMain__title {
     font-size: 0.44rem;
     color: #074aa7;
@@ -1115,7 +1083,8 @@
     color: #333;
     font-size: .16rem;
     line-height: .26rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 7.7rem; }
     .mission__text p:nth-child(1) {
       padding-bottom: .4rem; }
     .mission__text p:nth-child(2) {
@@ -1293,12 +1262,15 @@
             flex-wrap: wrap;
     margin: 0 auto 0.3rem auto; }
   .catalog__box {
+    display: block;
     background-color: #fff;
-    height: 100%;
     min-width: 23%;
     max-width: 23%;
     padding: 0 0 0.1rem 0;
-    border-color: #f7f7f7; }
+    border-color: #f7f7f7;
+    height: auto; }
+    .catalog__box:hover {
+      opacity: .9; }
   .catalog__btn {
     width: 1.7rem;
     height: .44rem;
@@ -1490,6 +1462,23 @@
         -webkit-border-radius: .03rem;
                 border-radius: .03rem; }
 
+.article__date {
+  color: #8b9199;
+  font-size: 0.12rem;
+  line-height: 0.26rem;
+  margin: 0.8rem auto 0 auto;
+  font-family: "Avenir Next Cyr";
+  max-width: 7.7rem; }
+
+.article__name {
+  color: #074aa7;
+  font-size: 0.36rem;
+  line-height: 43px;
+  font-weight: 900;
+  margin: 0.2rem auto 0.4rem auto;
+  font-family: "Avenir Next Cyr";
+  max-width: 7.7rem; }
+
 .article {
   -webkit-box-align: left;
   -webkit-align-items: left;
@@ -1507,23 +1496,13 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
-  .article__date {
-    color: #8b9199;
-    font-size: 0.12rem;
-    line-height: 0.26rem; }
-  .article__name {
-    color: #074aa7;
-    font-size: 0.36rem;
-    line-height: 43px;
-    font-weight: 900;
-    padding: .3rem 0 .4rem 0; }
 
 .delivery {
   -webkit-box-align: left;
   -webkit-align-items: left;
       -ms-flex-align: left;
           align-items: left;
-  margin: 0.8rem auto 0.8rem auto;
+  margin: 0 auto 0.8rem auto;
   font-family: "SF UI Display";
   max-width: 7.7rem;
   display: -webkit-box;
@@ -1536,52 +1515,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   font-weight: 500; }
-  .delivery__text {
-    font-size: 0.16rem;
-    line-height: 0.26rem;
-    padding: .3rem 0 .6rem 0;
-    font-family: "SF UI Display";
-    color: #333; }
-  .delivery h1, .delivery h3 {
-    color: #074aa7;
-    font-weight: 700; }
-  .delivery h1 {
-    font-size: 0.36rem;
-    line-height: 43px; }
-  .delivery__h3 {
-    font-size: 0.26rem;
-    line-height: 43px; }
-    .delivery__h3_text {
-      font-size: 0.16rem;
-      line-height: 0.26rem;
-      font-family: "SF UI Display";
-      color: #333; }
-  .delivery ul {
-    list-style-type: disc;
-    text-align: left;
-    padding: 0 0 0 .3rem;
-    font-family: "SF UI Display"; }
-    .delivery ul li {
-      color: #2393e2; }
-    .delivery ul li span {
-      color: #333; }
-  .delivery__table {
-    border-collapse: collapse; }
-    .delivery__table tr {
-      border-bottom: 0.01rem solid #dadee3;
-      height: 0.5rem;
-      color: #333; }
-    .delivery__table th {
-      font-size: 0.16rem;
-      line-height: 0.26rem;
-      color: #888;
-      min-width: 0.1rem;
-      font-weight: 400; }
-    .delivery__table td {
-      min-width: 1rem; }
-  .delivery__table_span {
-    font-size: 0.14rem;
-    line-height: 26px; }
 
 .calc {
   -webkit-box-align: left;
@@ -1757,10 +1690,13 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     width: 100%; }
-    .galleryMain__block img {
+    .galleryMain__block a {
+      margin-bottom: .4rem;
       width: 3.7rem;
-      height: 2.6rem;
-      margin-bottom: .4rem; }
+      height: 2.6rem; }
+    .galleryMain__block img {
+      width: 100%;
+      height: 100%; }
   .galleryMain__title {
     font-size: 0.44rem;
     color: #074aa7;
@@ -1874,19 +1810,22 @@
   .typography h1 {
     font-size: .32rem;
     font-weight: 700;
-    padding: .8rem 0 .4rem 0; }
+    margin: .8rem 0 .4rem 0; }
   .typography h2 {
     line-height: 43px;
     font-weight: 700;
-    font-size: 0.28rem; }
+    font-size: 0.28rem;
+    margin: .4rem 0 .4rem 0; }
   .typography h3 {
     line-height: 43px;
     font-weight: 700;
-    font-size: 0.26rem; }
+    font-size: 0.26rem;
+    margin: .4rem 0 .4rem 0; }
+  .typography img {
+    margin: .2rem 0 .2rem 0; }
   .typography p {
     font-size: 0.16rem;
     line-height: 0.26rem;
-    padding: .3rem 0 .6rem 0;
     font-family: "SF UI Display";
     color: #333;
     font-weight: 500; }
@@ -1901,7 +1840,8 @@
     .typography ul li span {
       color: #333; }
   .typography table {
-    border-collapse: collapse; }
+    border-collapse: collapse;
+    margin: .4rem 0 0 0; }
     .typography table a {
       border-bottom: 0.01rem solid #dadee3; }
     .typography table tr {
@@ -1918,6 +1858,9 @@
       min-width: 1rem; }
     .typography table a {
       color: #2393e2; }
+  .typography sub {
+    font-size: 0.14rem;
+    line-height: 26px; }
 
 .card {
   -webkit-box-align: left;
@@ -2316,7 +2259,7 @@ p {
 
 .screen {
   width: auto;
-  min-height: 7.2rem;
+  height: 7.2rem;
   background: #1f2330 center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -2449,7 +2392,11 @@ p {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
-      display: flex; }
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
       .about__box_item ul {
         list-style-type: disc;
         margin: auto;
@@ -2659,16 +2606,15 @@ p {
             flex-wrap: wrap;
     width: 100%;
     font-family: "SF UI Display";
-    text-align: left; }
+    text-align: left;
+    margin-left: -.2rem; }
     .news__box_item {
       min-width: 25%;
       max-width: 25%;
-      padding: 0 0.2rem 0.45rem 0;
+      padding: .2rem;
       display: block; }
       .news__box_item:hover {
-        background: #f2f4f7;
-        -webkit-background-clip: content-box;
-                background-clip: content-box; }
+        background: #f2f4f7; }
       .news__box_item:nth-child(1 + 4n) {
         padding: 0 0 0.45rem 0; }
     .news__box_date {
@@ -2801,14 +2747,15 @@ p {
       .consultation__warning_checkbox input {
         display: none; }
         .consultation__warning_checkbox input:checked + .consultation__checkbox_span::before {
-          content: '\2713';
+          content: '';
           display: block;
           position: absolute;
-          top: -.06rem;
-          left: .01rem;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
           color: #1f3689;
-          font-weight: 700;
-          font-size: .14rem; }
+          background: url("../img/1.png") no-repeat center; }
       .consultation__warning_checkbox span.consultation__checkbox_span {
         position: relative;
         width: .14rem;
@@ -2957,19 +2904,22 @@ p {
   .typography h1 {
     font-size: .32rem;
     font-weight: 700;
-    padding: .8rem 0 .4rem 0; }
+    margin: .8rem 0 .4rem 0; }
   .typography h2 {
     line-height: 43px;
     font-weight: 700;
-    font-size: 0.28rem; }
+    font-size: 0.28rem;
+    margin: .4rem 0 .4rem 0; }
   .typography h3 {
     line-height: 43px;
     font-weight: 700;
-    font-size: 0.26rem; }
+    font-size: 0.26rem;
+    margin: .4rem 0 .4rem 0; }
+  .typography img {
+    margin: .2rem 0 .2rem 0; }
   .typography p {
     font-size: 0.16rem;
     line-height: 0.26rem;
-    padding: .3rem 0 .6rem 0;
     font-family: "SF UI Display";
     color: #333;
     font-weight: 500; }
@@ -2984,7 +2934,8 @@ p {
     .typography ul li span {
       color: #333; }
   .typography table {
-    border-collapse: collapse; }
+    border-collapse: collapse;
+    margin: .4rem 0 0 0; }
     .typography table a {
       border-bottom: 0.01rem solid #dadee3; }
     .typography table tr {
@@ -3001,4 +2952,7 @@ p {
       min-width: 1rem; }
     .typography table a {
       color: #2393e2; }
+  .typography sub {
+    font-size: 0.14rem;
+    line-height: 26px; }
 

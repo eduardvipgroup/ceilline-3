@@ -33,13 +33,6 @@
             <button class="header__search_btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
         </span>
     </form>
-        <label for="header__search_input">
-            <input type="text" name="header__search_input" id="header__search_input" placeholder="Поиск">
-        </label>
-        <span class="header__search_span">
-            <button class="header__search_btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
-        </span>
-    </div>
     <div class="header__contacts">
         <div class="header__contacts_tel">
             <div class="header__contacts_tel-fa"><i class="fas fa-phone"></i></div>
@@ -169,8 +162,15 @@
             const prev = document.querySelector('.gallery__slide_prev');
             const next = document.querySelector('.gallery__slide_next');
 
-            prev.addEventListener('click', () => mySiema.prev());
-            next.addEventListener('click', () => mySiema.next());
+            prev.addEventListener('click', function() {
+                mySiema.prev();
+            } );
+            next.addEventListener('click', function() {
+                mySiema.next();
+            } );
+
+            //prev.addEventListener('click', () => mySiema.prev());
+            //next.addEventListener('click', () => mySiema.next());
         </script>
     </div>
 
