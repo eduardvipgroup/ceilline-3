@@ -1797,39 +1797,6 @@
   color: #074aa7;
   text-align: left;
   margin: 0 auto .8rem auto; }
-  .mounting__title {
-    font-size: .32rem;
-    font-weight: 700;
-    padding: .8rem 0 .4rem 0; }
-  .mounting h2, .mounting h3 {
-    padding: .6rem 0 .4rem 0;
-    font-weight: 600; }
-  .mounting p {
-    color: #1f2330;
-    font-size: 0.16rem;
-    line-height: 0.26rem; }
-  .mounting table {
-    border-collapse: collapse; }
-    .mounting table a {
-      border-bottom: 0.01rem solid #dadee3; }
-    .mounting table tr {
-      border-bottom: 0.01rem solid #dadee3;
-      height: 0.5rem;
-      color: #1f2330; }
-    .mounting table th {
-      font-size: 0.14rem;
-      font-weight: 400;
-      line-height: 0.26rem;
-      color: #8b9199;
-      min-width: 0.1rem; }
-    .mounting table td {
-      min-width: 1rem; }
-  .mounting__th {
-    text-align: center; }
-  .mounting__td_pdf {
-    text-align: center; }
-    .mounting__td_pdf a {
-      color: #2393e2; }
 
 .bg, .bg2 {
   width: 100%;
@@ -1902,14 +1869,17 @@
     margin-top: 0; }
 
 .typography {
-  max-width: 7.7rem; }
+  max-width: 7.7rem;
+  color: #074aa7; }
+  .typography h1 {
+    font-size: .32rem;
+    font-weight: 700;
+    padding: .8rem 0 .4rem 0; }
   .typography h2 {
-    color: #074aa7;
     line-height: 43px;
     font-weight: 700;
     font-size: 0.28rem; }
   .typography h3 {
-    color: #074aa7;
     line-height: 43px;
     font-weight: 700;
     font-size: 0.26rem; }
@@ -1930,6 +1900,24 @@
       color: #2393e2; }
     .typography ul li span {
       color: #333; }
+  .typography table {
+    border-collapse: collapse; }
+    .typography table a {
+      border-bottom: 0.01rem solid #dadee3; }
+    .typography table tr {
+      border-bottom: 0.01rem solid #dadee3;
+      height: 0.5rem;
+      color: #1f2330; }
+    .typography table th {
+      font-size: 0.14rem;
+      font-weight: 400;
+      line-height: 0.26rem;
+      color: #8b9199;
+      min-width: 0.1rem; }
+    .typography table td {
+      min-width: 1rem; }
+    .typography table a {
+      color: #2393e2; }
 
 .card {
   -webkit-box-align: left;
@@ -2260,8 +2248,6 @@ p {
     font-size: 0.14rem;
     font-weight: 600;
     min-width: 2.4rem; }
-    .header__search__form {
-      width: 2.4rem; }
     .header__search label {
       width: 100%; }
     .header__search input {
@@ -2677,10 +2663,12 @@ p {
     .news__box_item {
       min-width: 25%;
       max-width: 25%;
-      padding: 0 0.2rem 0.45rem 0; }
+      padding: 0 0.2rem 0.45rem 0;
+      display: block; }
       .news__box_item:hover {
-        -webkit-box-shadow: 0 0.03rem 0.12rem rgba(31, 35, 48, 0.2);
-                box-shadow: 0 0.03rem 0.12rem rgba(31, 35, 48, 0.2); }
+        background: #f2f4f7;
+        -webkit-background-clip: content-box;
+                background-clip: content-box; }
       .news__box_item:nth-child(1 + 4n) {
         padding: 0 0 0.45rem 0; }
     .news__box_date {
@@ -2742,8 +2730,7 @@ p {
           border-radius: .03rem;
   background: #f2f5f7;
   color: #197fff;
-  margin: 0.2rem auto 0.8rem auto;
-  /* services */ }
+  margin: .2rem auto .8rem auto; }
 
 .consultation {
   font-family: "SF UI Display";
@@ -2804,11 +2791,6 @@ p {
     background-image: -o-linear-gradient(left, #1aaa46 0%, #3fb559 100%);
     background-image: linear-gradient(to right, #1aaa46 0%, #3fb559 100%);
     color: #fff; }
-  .consultation__btn:hover {
-    background-image: -webkit-gradient(linear, right top, left top, from(#1aaa46), to(#3fb559));
-    background-image: -webkit-linear-gradient(right, #1aaa46 0%, #3fb559 100%);
-    background-image: -o-linear-gradient(right, #1aaa46 0%, #3fb559 100%);
-    background-image: linear-gradient(to left, #1aaa46 0%, #3fb559 100%); }
   .consultation__warning {
     padding-bottom: .6rem;
     text-align: left; }
@@ -2968,49 +2950,19 @@ p {
   color: #074aa7;
   text-align: left;
   margin: 0 auto .8rem auto; }
-  .mounting__title {
+
+.typography {
+  max-width: 7.7rem;
+  color: #074aa7; }
+  .typography h1 {
     font-size: .32rem;
     font-weight: 700;
     padding: .8rem 0 .4rem 0; }
-  .mounting h2, .mounting h3 {
-    padding: .6rem 0 .4rem 0;
-    font-weight: 600; }
-  .mounting p {
-    color: #1f2330;
-    font-size: 0.16rem;
-    line-height: 0.26rem; }
-  .mounting table {
-    border-collapse: collapse; }
-    .mounting table a {
-      border-bottom: 0.01rem solid #dadee3; }
-    .mounting table tr {
-      border-bottom: 0.01rem solid #dadee3;
-      height: 0.5rem;
-      color: #1f2330; }
-    .mounting table th {
-      font-size: 0.14rem;
-      font-weight: 400;
-      line-height: 0.26rem;
-      color: #8b9199;
-      min-width: 0.1rem; }
-    .mounting table td {
-      min-width: 1rem; }
-  .mounting__th {
-    text-align: center; }
-  .mounting__td_pdf {
-    text-align: center; }
-    .mounting__td_pdf a {
-      color: #2393e2; }
-
-.typography {
-  max-width: 7.7rem; }
   .typography h2 {
-    color: #074aa7;
     line-height: 43px;
     font-weight: 700;
     font-size: 0.28rem; }
   .typography h3 {
-    color: #074aa7;
     line-height: 43px;
     font-weight: 700;
     font-size: 0.26rem; }
@@ -3031,4 +2983,22 @@ p {
       color: #2393e2; }
     .typography ul li span {
       color: #333; }
+  .typography table {
+    border-collapse: collapse; }
+    .typography table a {
+      border-bottom: 0.01rem solid #dadee3; }
+    .typography table tr {
+      border-bottom: 0.01rem solid #dadee3;
+      height: 0.5rem;
+      color: #1f2330; }
+    .typography table th {
+      font-size: 0.14rem;
+      font-weight: 400;
+      line-height: 0.26rem;
+      color: #8b9199;
+      min-width: 0.1rem; }
+    .typography table td {
+      min-width: 1rem; }
+    .typography table a {
+      color: #2393e2; }
 
