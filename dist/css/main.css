@@ -290,6 +290,92 @@
       -ms-flex-direction: column;
           flex-direction: column; }
 
+.banner {
+  width: 1590px;
+  height: 400px;
+  position: relative;
+  background: url("../img/Bali-sea.png");
+  margin: 20px auto;
+  overflow: hidden; }
+  .banner .banner_block {
+    position: relative;
+    z-index: 2; }
+    .banner .banner_block .banner_arrow {
+      background: url("../img/arrow.png");
+      position: absolute;
+      width: 120px;
+      height: 166px;
+      left: 515px;
+      top: 134px;
+      -webkit-transform: rotate(-7deg);
+          -ms-transform: rotate(-7deg);
+              transform: rotate(-7deg); }
+    .banner .banner_block .banner_button {
+      position: absolute;
+      width: 250px;
+      height: 50px;
+      left: 1300px;
+      top: 313px;
+      background: #DA4194;
+      -webkit-box-shadow: 4px 4px 20px #DA4194;
+              box-shadow: 4px 4px 20px #DA4194;
+      -webkit-border-radius: 25px;
+              border-radius: 25px; }
+    .banner .banner_block p {
+      position: absolute;
+      font-family: "Segoe Script";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: normal;
+      text-shadow: 0 10px 10px #8856AB; }
+      .banner .banner_block p:nth-of-type(1) {
+        width: 412px;
+        height: 39px;
+        left: 613px;
+        top: 111px;
+        color: #232315;
+        -webkit-transform: rotate(-14deg);
+            -ms-transform: rotate(-14deg);
+                transform: rotate(-14deg); }
+      .banner .banner_block p:nth-of-type(2) {
+        width: 393px;
+        height: 37px;
+        left: 699px;
+        top: 140px;
+        color: #fff;
+        -webkit-transform: rotate(-8deg);
+            -ms-transform: rotate(-8deg);
+                transform: rotate(-8deg); }
+      .banner .banner_block p:nth-of-type(3) {
+        width: 741px;
+        height: 37px;
+        left: 654px;
+        top: 199px;
+        color: #CD1D00;
+        -webkit-transform: rotate(-2deg);
+            -ms-transform: rotate(-2deg);
+                transform: rotate(-2deg); }
+      .banner .banner_block p:nth-of-type(4) {
+        width: 633px;
+        height: 37px;
+        left: 622px;
+        top: 258px;
+        color: #0097E5;
+        -webkit-transform: rotate(1deg);
+            -ms-transform: rotate(1deg);
+                transform: rotate(1deg); }
+  .banner .banner_ellipse {
+    width: 2029px;
+    height: 1086px;
+    left: -747px;
+    top: -203px;
+    position: absolute;
+    background: -webkit-radial-gradient(65.74% 50.36%, 554.53px, #11F952 0%, rgba(17, 249, 82, 0) 100%);
+    background: -o-radial-gradient(65.74% 50.36%, 554.53px, #11F952 0%, rgba(17, 249, 82, 0) 100%);
+    background: radial-gradient(554.53px at 65.74% 50.36%, #11F952 0%, rgba(17, 249, 82, 0) 100%);
+    z-index: 1; }
+
 .calc {
   -webkit-box-align: left;
   -webkit-align-items: left;

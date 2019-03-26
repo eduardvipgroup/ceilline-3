@@ -30,6 +30,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Segoe Script';
+    src: url('SegoeScript.woff2') format('woff2'),
+    url('SegoeScript.woff') format('woff'),
+    url('SegoeScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Этот шрифт используется по умолчанию, поэтому нет смысла указать его для всех блоков, можно сделать для html */
 html {
